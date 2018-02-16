@@ -7,6 +7,9 @@ Vue.config.productionTip = false
 Vue.use(RouterNav)
 
 new Vue({
+  data: {
+      images: [ { src: '', caption: '' } ]
+  },
   router,
   render: h => h(App)
 }).$mount('#app')
