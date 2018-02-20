@@ -8,7 +8,9 @@ Vue.use(RouterNav)
 
 new Vue({
   data: {
-      images: [ { src: '', caption: '' } ]
+      images: [ { src: '', caption: '' } ],
+      questions: [ { q: '' } ],
+      currentQuestion: { q: '' }
   },
   router,
   render: h => h(App)

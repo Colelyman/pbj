@@ -5,12 +5,17 @@
     <h4>By: Spencer Buhler, Nicholas Lush, Cole Lyman, and Mark Standring</h4>
     <router-nav/>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Footer from './components/Footer.vue'
 export default {
-  name: 'app'
+    name: 'app',
+    components: {
+        Footer
+    }
 }
 </script>
 
