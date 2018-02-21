@@ -72,17 +72,9 @@ img {
     width: 50%;
 }
 ul {
-    margin-top: 0;
-    padding-left: 2em;
     list-style-type: none;
-    list-style-position: outside;
-}
-li {
-   // padding-left: 5px;
 }
 li:before {
-    posigion: absolute;
-    margin-left: -1em;
     font-weight: bold;
 }
 li.tick:before {
