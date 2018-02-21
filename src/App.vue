@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>The Peanut Butter and Jelly Sandwich: Properties, Mechanics, and Assembly</h1>
+    <h1>Essential Mechanics of a Peanut Butter and Jelly Sandwich</h1>
   
     <h4>By: Spencer Buhler, Nicholas Lush, Cole Lyman, and Mark Standring</h4>
     <router-nav/>

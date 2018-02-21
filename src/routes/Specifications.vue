@@ -228,6 +228,7 @@
         <span><em>Source of nutritional information:</em> <a href="https://www.fatsecret.com/calories-nutrition/generic/peanut-butter-and-jelly-sandwich">https://www.fatsecret.com/calories-nutrition/generic/peanut-butter-and-jelly-sandwich</a></span>
       </div>
       <div class="eight columns">
+        <p><strong>Table 1:</strong> The authors present some data that reflect some mechanical and chemical properties of the PB&amp;J.</p>
         <table class="u-full-width">
           <thead>
             <tr>
