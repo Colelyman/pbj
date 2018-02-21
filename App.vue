@@ -29,7 +29,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-#header {
+#header, .footer {
   background-color: tan;
   width: 1360px;
   margin-left: -450px;
