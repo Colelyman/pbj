@@ -1,14 +1,9 @@
 <template>
-  <div>
-  <slider animation="fade" :auto="true" height="400px">
-    <slider-item v-for="(image, i) in this.images" :key="i">
-      <div class="row">
-        <img :src="image.src" height="350">
-        <p class="caption"><strong>Figure {{ i + 1 }}:</strong> {{ image.caption }}</p>
-      </div>
-    </slider-item>
-  </slider>
-  <h3>What constitutes a Peanut Butter and Jelly (PB&amp;J) sandwich?</h3>
+<div>
+  <h3>What constitutes a Peanut Butter and Jelly sandwich?</h3>
+  <div class="row">
+    <p class="twelve columns">The Peanut Butter and Jelly (PB&amp;J) sandwich is an iconic sandwich that has many variations and adaptations to the original recipe. The authors provide specific criteria that specify what constitutes a PB&amp;J as well as showing acceptable forms of the ubiquitous sandwich.</p> 
+  </div>
   <div class="row">
     <div class="six columns">
       <h4>A PB&amp;J constitutes:</h4>
@@ -27,6 +22,16 @@
       </ul>
     </div>
   </div>
+  <h3>PB&amp;J forms:</h3>
+  <div class="row">
+    <p class="twelve columns">A strength of the PB&amp;J is that is adaptable to the partaker’s specific taste, as well as the ingredients that are available. One example of the versatility of the PB&amp;J is found in Figure 1, where the grain substrate is two Ritz crackers. However, this strength can quickly become a weakness when the variations of the PB&amp;J become extreme.</p> 
+  </div>
+  <slider animation="fade" :auto="true" height="420px">
+    <slider-item v-for="(image, i) in this.images" :key="i">
+      <img :src="image.src">
+      <p class="caption"><strong>Figure {{ i + 1 }}:</strong> {{ image.caption }} <em>Source:</em> <a class="reference" :href="image.ref">{{ image.ref }}</a></p>
+    </slider-item>
+  </slider> 
 </div>
 </template>
 
@@ -37,9 +42,11 @@ export default {
     data() {
         return {
             images: [
-                { src: 'images/pbj1.jpg', caption: 'This is a happy sandwich.' },
-                { src: 'images/pbj2.jpg', caption: 'This is a loving sandwich.' },
-                { src: 'images/pbj3.jpg', caption: 'This is a gross sandwich.' }
+                {
+                    src: 'images/ritz.jpg',
+                    caption: 'This Ritz cracker PB&J shows the versatility of the sandwich, and fulfills the proper criteria to still be considered a PB&J.',
+                    ref: 'http://www.snackworks.com/recipe/pbj-ritzwich-188689.aspx'
+                },
             ]
         }
     },
@@ -54,6 +61,15 @@ export default {
 .caption {
     color: #000000;
     margin-left: 1em;
+}
+.slider-indicator-icon {
+    margin-bottom: 40px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 ul {
     margin-top: 0;
