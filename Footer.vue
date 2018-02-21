@@ -63,7 +63,10 @@ export default {
     margin-top: 60px;
 }
 #firstFooterColumn{
-  width:23%;
+  width:21%;
+}
+.four.columns{
+  margin-left:1%;
 }
 .fade-enter-active {
     transition: opacity .3s ease;
