@@ -5,7 +5,7 @@
 
     <p>Back then PB&amp;J sandwiches fed troops and families during the Great Depression and second world war (although at the time it was made with Grapelade, not jelly). Nowadays parents love it because it's easy to make, kids love it because they can make it themselves and college students love it because it's cheap (an American will eat on average 2000 PBJ’s before the age 18 or graduating high school). The NBA even loves it for pre-game because it has good macros. President George W. Bush also told Oprah on national television that his favorite sandwich is a PB&amp;J on white bread.</p>
 
-    <p>In popular culture today, the PBJ also has its place. Many people will remember the internet meme and accompanying song called “Peanut Butter Jelly Time”. Last year, anyone wishing to get trendy may have considered following after Beyonce and her “PB&amp;J Lips”. However for those who are really up with the times, they’d likely prefer to be seen with PB&amp;J Hair.</p>
+    <p>In popular culture today, the PBJ also has its place. Many people will remember the internet meme and accompanying song called “Peanut Butter Jelly Time”. Last year, anyone wishing to get trendy may have considered following after Beyonce and her “PB&amp;J Lips”. However for those who are really up with the times, they’d likely prefer to be seen with PB&amp;J Hair or at the Emmy awards ceremony receiving PB&amp;J's from the cast of <a href="https://en.wikipedia.org/wiki/Stranger_Things">Stranger Things</a>.</p>
   </div>
 </template>
 
