@@ -1,9 +1,27 @@
 <template>
   <div class="footer">
-    <transition
-      name="fade">
-      <p :key="qChange">{{ currentQuestion.q }}</p>
-    </transition>
+    <div class="row">
+      <div class="four columns">
+        <h5>The PB&amp;J Sandwhich: Properties, Mechanics, and Assembly</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/importance">Importance</a></li>
+          <li><a href="/fun-facts">Fun facts</a></li>
+          <li><a href="/specs">Specifications</a></li>
+        </ul>
+      </div>
+      <div class="four columns">
+        <h5>Exisential questions concerning PB&amp;J:</h5>
+        <transition
+          name="fade">
+          <p :key="qChange">{{ currentQuestion.q }}</p>
+        </transition>
+      </div>
+      <div class="four columns">
+        <h5>Technical Description</h5>
+        <h6>BYU ENGL 316 (003)- Winter 2018 with Dr. Martha Wall</h6>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -42,7 +60,8 @@ export default {
 
 <style scoped>
 .footer {
-        height: 100px;
+    height: 200px;
+    margin-top: 60px;
 }
 .fade-enter-active {
     transition: opacity .3s ease;
@@ -53,6 +72,10 @@ export default {
 .fade-enter, .fade-leave-to {
     transform: translateX(10px);
     opacity: 0;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0.1em;
 }
 </style>
 

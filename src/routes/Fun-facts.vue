@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Various fun facts about Peanut Butter and Jelly sandwich:</h3>
+    <h3>Various fun facts about the Peanut Butter and Jelly sandwich:</h3>
     <ul>
       <li>The peanut butter and jelly sandwich (PB&amp;J) has been around for a long time. The recipe for a PB&amp;J has existed as early as 1901. It’s predecessor was peanut butter with pimento cheese.</li>
       <li>Maybe one of the reasons that the PB&amp;J is such a big hit is that it has roots in our nation with Thomas Jefferson and Jimmy Carter, two former presidents, being peanut farmers. They may have been the ones that promoted National Peanut Butter Day, which takes place on February 12th, and National Jelly Day, which takes placed on April 2nd.</li>
