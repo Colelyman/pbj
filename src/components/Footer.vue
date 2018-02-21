@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="row">
       <div class="four columns">
-        <h5>The PB&amp;J Sandwhich: Properties, Mechanics, and Assembly</h5>
+        <h5>Essential Mechanics of a PB&amp;J Sandwhich</h5>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/importance">Importance</a></li>
@@ -11,7 +11,7 @@
         </ul>
       </div>
       <div class="four columns">
-        <h5>Exisential questions concerning PB&amp;J:</h5>
+        <h5>Existential questions concerning PB&amp;J:</h5>
         <transition
           name="fade">
           <p :key="qChange">{{ currentQuestion.q }}</p>

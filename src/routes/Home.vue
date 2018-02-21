@@ -24,7 +24,7 @@
   </div>
   <h3>The forms of the PB&amp;J</h3>
   <div class="row">
-    <p class="twelve columns">A strength of the PB&amp;J is that is adaptable to the partaker’s specific taste, as well as the ingredients that are available. One example of the versatility of the PB&amp;J is found in Figure 1, where the grain substrate is two Ritz crackers. However, this strength can quickly become a weakness when the variations of the PB&amp;J become extreme.</p> 
+    <p class="twelve columns">A strength of the PB&amp;J is that it is adaptable to the partaker’s specific taste, as well as the ingredients that are available. One example of the versatility of the PB&amp;J is found in Figure 1, where the grain substrate is two Ritz crackers. However, this strength can quickly become a weakness when the variations of the PB&amp;J become extreme.</p> 
   </div>
   <slider animation="fade" :auto="true" height="420px">
     <slider-item v-for="(image, i) in this.images" :key="i">
