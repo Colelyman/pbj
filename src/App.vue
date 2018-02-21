@@ -27,6 +27,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.nav-panel {
+    margin-bottom: 20px;
+}
 ul {
     margin-top: 0;
     padding-left: 2em;
