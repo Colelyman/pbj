@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="row">
-      <div class="four columns">
+      <div class="four columns" id="firstFooterColumn">
         <h5>Essential Mechanics of a PB&amp;J Sandwhich</h5>
         <ul>
           <li><a href="/">Home</a></li>
@@ -60,8 +60,13 @@ export default {
 
 <style scoped>
 .footer {
-    height: 200px;
     margin-top: 60px;
+}
+#firstFooterColumn{
+  width:21%;
+}
+.four.columns{
+  margin-left:1%;
 }
 .fade-enter-active {
     transition: opacity .3s ease;

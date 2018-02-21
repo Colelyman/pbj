@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <h1>Essential Mechanics of a Peanut Butter and Jelly Sandwich</h1>
-  
-    <h4>By: Spencer Buhler, Nicholas Lush, Cole Lyman, and Mark Standring</h4>
+    <div id="header">
+      <h1 class="headerTitle">Essential Mechanics of a Peanut Butter</h1> <h1 class="headerTitle">and Jelly Sandwich</h1>
+
+      <h4 id="titleCredits">By: Spencer Buhler, Nicholas Lush, Cole Lyman, and Mark Standring</h4>
+    </div>
     <router-nav/>
     <router-view/>
     <Footer/>
@@ -27,8 +29,25 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+#header, .footer {
+  background-color: tan;
+  width: 1360px;
+  margin-left: -450px;
+  padding-left: 450px;
+  padding-right: 60px;
+  color:rebeccapurple;
+}
+.headerTitle {
+  margin-bottom: 0;
+}
+#titleCredits {
+  font-size: 20px;
+}
 .nav-panel {
     margin-bottom: 20px;
+    background-color: #FFDEAD;
+    margin-top: -20px;
+    padding-left: 15px;
 }
 ul {
     margin-top: 0;
