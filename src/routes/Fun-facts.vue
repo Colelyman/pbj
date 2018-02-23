@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainBody">
     <h3>Various fun facts about the Peanut Butter and Jelly sandwich:</h3>
     <ul>
       <li>The peanut butter and jelly sandwich (PB&amp;J) has been around for a long time. The recipe for a PB&amp;J has existed as early as 1901. Its predecessor was peanut butter with pimento cheese.</li>

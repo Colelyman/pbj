@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainBody">
     <h3>The Importance of the PB&amp;J</h3>
     <p>What has become the most famous sandwich in American history, can trace its roots back to the turn of the 20<sup>th</sup> century. Since its first wild success in the 1904 St. Louis World’s fair, the PB&amp;J has become the nation’s favorite across all boards.</p>
 

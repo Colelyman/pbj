@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="mainBody">
   <h3>What constitutes a Peanut Butter and Jelly sandwich?</h3>
   <div class="row">
     <p class="twelve columns">The Peanut Butter and Jelly (PB&amp;J) sandwich is an iconic sandwich that has many variations and adaptations to the original recipe. The authors provide specific criteria that specify what constitutes a PB&amp;J as well as showing acceptable forms of the ubiquitous sandwich.</p> 
@@ -60,16 +60,24 @@ export default {
 <style scoped>
 .caption {
     color: #000000;
-    margin-left: 1em;
+    margin-left: 5em;
+    margin-right:5em;
+}
+.slider{
+  background-color: #d3d3d3;
+  padding-top: 30px;
+}
+.slider img{
+  padding-bottom: 5px;
 }
 .slider-indicator-icon {
     margin-bottom: 40px;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 ul {
     list-style-type: none;

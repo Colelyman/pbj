@@ -1,6 +1,9 @@
 <template>
   <div class="footer">
-    <div class="row">
+    <div class="purpleBar">
+
+    </div>
+    <div class="row footerContent">
       <div class="four columns" id="firstFooterColumn">
         <h5>Essential Mechanics of a PB&amp;J Sandwhich</h5>
         <ul>
@@ -17,7 +20,7 @@
           <p :key="qChange">{{ currentQuestion.q }}</p>
         </transition>
       </div>
-      <div class="four columns">
+      <div class="four columns" id="lastFooterColumn">
         <h5>Technical Description</h5>
         <h6>BYU ENGL 316 (003)- Winter 2018 with Dr. Martha Wall</h6>
       </div>
@@ -62,11 +65,25 @@ export default {
 .footer {
     margin-top: 60px;
 }
+.purpleBar{
+  background-color:#845BAD;
+  height:20px;
+}
 #firstFooterColumn{
-  width:21%;
+  width:33%;
+}
+#lastFooterColumn {
+  float:right;
+}
+a{
+  color:black;
+}
+a:hover{
+  color:rebeccapurple;
 }
 .four.columns{
   margin-left:1%;
+  margin-top:8px;
 }
 .fade-enter-active {
     transition: opacity .3s ease;

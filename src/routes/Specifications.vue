@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainBody">
     <div class="row">
       <div class="four columns">
         <section class="performance-facts">
@@ -225,11 +225,12 @@
             Protein 4
         </p>
         </section>
-        <span><em>Source of nutritional information:</em> <a href="https://www.fatsecret.com/calories-nutrition/generic/peanut-butter-and-jelly-sandwich">https://www.fatsecret.com/calories-nutrition/generic/peanut-butter-and-jelly-sandwich</a></span>
+          <div class="sourceSubtitle">
+            <span><em>Source of nutritional information:</em> <a href="https://www.fatsecret.com/calories-nutrition/generic/peanut-butter-and-jelly-sandwich">https://www.fatsecret.com/calories-nutrition/generic/peanut-butter-and-jelly-sandwich</a></span>
+          </div>
       </div>
       <div class="eight columns">
-        <p><strong>Table 1:</strong> The authors present some data that reflect some mechanical and chemical properties of the PB&amp;J.</p>
-        <table class="u-full-width">
+        <table class="u-full-width substanceTable">
           <thead>
             <tr>
               <th>Substance</th>
@@ -259,6 +260,7 @@
             </tr>
           </tbody>
         </table>
+        <p><strong>Table 1:</strong> The authors present some data that reflect some mechanical and chemical properties of the PB&amp;J.</p>
       </div>
     </div>
   </div>
@@ -281,7 +283,12 @@ body {
 p {
   margin: 0;
 }
-
+.substanceTable thead, tbody, tr{
+    border-bottom: .14em solid #c2c2c2;
+}
+.sourceSubtitle {
+    padding-left:7%;
+}
 .performance-facts {
   border: 1px solid black;
   margin: 20px;
@@ -344,7 +351,7 @@ p {
   margin: 0 0 0.5rem 0;
   thead {
     tr {
-      border-bottom: 1px solid black; 
+      border-bottom: 1px solid black;
     }
   }
   td {
