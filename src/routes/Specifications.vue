@@ -258,6 +258,14 @@
               <td>N.A.</td>
               <td>1 x 10<sup>-6</sup> GPA</td>
             </tr>
+            <tr>
+              <td>Bread</td>
+              <td>0.19 g/cm<sup>3</sup></td>
+              <td>N.A.</td>
+              <td>5.0-6.2</td>
+              <td>N.A.</td>
+              <td>0.04-0.16 MPA</td>
+            </tr>
           </tbody>
         </table>
         <p><strong>Table 1:</strong> The authors present some data that reflect some mechanical and chemical properties of the PB&amp;J.</p>
@@ -271,13 +279,15 @@
 </script>
 
 <style scoped>
+th, td {
+  padding: 0;
+}
 .image {
   width: 250px;
   float: left;
   margin: 20px;
 }
 body {
-  font-size: small;
   line-height: 1.4;
 }
 p {
@@ -314,6 +324,7 @@ p {
 }
 .performance-facts__table {
   width: 100%;
+  padding: 0;
   thead tr {
     th, td {
       border: 0;
@@ -322,7 +333,6 @@ p {
   th, td {
     font-weight: normal;
     text-align: left;
-    padding: 0.25rem 0;
     border-top: 1px solid black; 
     white-space: nowrap;
   }
@@ -342,13 +352,13 @@ p {
   }
 }
 .small-info {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .performance-facts__table--small {
   @extend .performance-facts__table;
   border-bottom: 1px solid #999;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.6rem 0;
   thead {
     tr {
       border-bottom: 1px solid black;

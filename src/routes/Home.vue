@@ -1,21 +1,24 @@
 <template>
 <div class="mainBody">
+  <h3>The Importance of the Peanut Butter and Jelly sandwich</h3>
+  <div class="row">
+    <p class="twelve columns">Insert paragraph by Mark.</p>
+  </div>
   <h3>What constitutes a Peanut Butter and Jelly sandwich?</h3>
   <div class="row">
     <p class="twelve columns">The Peanut Butter and Jelly (PB&amp;J) sandwich is an iconic sandwich that has many variations and adaptations to the original recipe. The authors provide specific criteria that specify what constitutes a PB&amp;J as well as showing acceptable forms of the ubiquitous sandwich.</p> 
   </div>
   <div class="row">
     <div class="six columns">
-      <h4>A PB&amp;J constitutes:</h4>
+      <h4>A PB&amp;J consists of:</h4>
       <ul>
         <li class="tick"> A grain-based substrate</li>
-        <li class="tick"> Enjoyment for the given partaker</li>
         <li class="tick"> Peanut butter (PB) and some jam or jelly-like (J) substance on the substrate</li>
         <li class="tick"> A horizontal interface between the PB and the J</li>
       </ul>
     </div>
     <div class="six columns">
-      <h4>A PB&amp;J does not constitute:</h4>
+      <h4>A PB&amp;J does not consist of:</h4>
       <ul>
         <li class="cross"> Any substance that detracts from the enjoyment of the partaker</li>
         <li class="cross"> PB substitutes, e.g., Almond Butter, Soynut Butter, Coconut Butter, etc.</li>
