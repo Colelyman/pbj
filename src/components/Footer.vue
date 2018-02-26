@@ -62,13 +62,10 @@ export default {
 </script>
 
 <style scoped>
-.footer {
-    margin-top: 60px;
-}
-.purpleBar{
+/*.purpleBar{
   background-color:#845BAD;
   height:20px;
-}
+}*/
 #firstFooterColumn{
   width:33%;
 }

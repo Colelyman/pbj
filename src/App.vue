@@ -27,6 +27,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  background: #ffdead;
+  background:-webkit-linear-gradient(top, #ffdead, #845bad);
+  background: -moz-linear-gradient(top, #ffdead, #845bad);
+  background: -ms-linear-gradient(top, #ffdead, #845bad);
+  background: -o-linear-gradient(top, #ffdead, #845bad);
+  background: linear-gradient(to bottom, #ffdead, #845bad);
   /*margin-top: 60px;*/
 }
 body{
@@ -36,11 +42,19 @@ body{
   background-color: tan;
   color:rebeccapurple;
 }
+.mainBody{
+  background-color:whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -21px !important;
+  padding-bottom: 10px;
+  padding-top: 8px;
+}
 .container {
   max-width: initial;
   width:100%;
 }
-#router-nav, .mainBody{
+#router-nav, .mainBody, .headerTitle{
   max-width: 960px;
   margin: 0 auto;
 }
@@ -52,7 +66,7 @@ body{
   margin-bottom: -38px;
   padding-bottom: 50px;
   padding-top:5px;
-  padding-left: 10px;
+  padding-left: 5px;
   font-size:32px;
 }
 #titleCredits {
@@ -60,7 +74,7 @@ body{
 }
 .nav-panel {
     margin-bottom: 20px;
-    background-color: #FFDEAD;
+    border-top: 1px solid black;
     /*margin-top: -20px;*/
     padding-left: 15px;
 }
