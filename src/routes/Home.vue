@@ -2,11 +2,11 @@
 <div class="mainBody">
   <h3>The Importance of the Peanut Butter and Jelly sandwich</h3>
   <div class="row">
-    <p class="twelve columns">Insert paragraph by Mark.</p>
+    <p class="twelve columns">Welcome! The purpose of this infosite is to raise awareness of the great American symbol: the Peanut Butter &amp; Jelly (PB&amp;J) Sandwich! Much like the Bald Eagle, the Stars &amp; Stripes, or the Statue of Liberty, the PB&amp;J has become inherently connected with American culture. Take a look around and find out more how PB&amp;J sandwiches were engineered to shape and change America!</p>
   </div>
   <h3>What constitutes a Peanut Butter and Jelly sandwich?</h3>
   <div class="row">
-    <p class="twelve columns">The Peanut Butter and Jelly (PB&amp;J) sandwich is an iconic sandwich that has many variations and adaptations to the original recipe. The authors provide specific criteria that specify what constitutes a PB&amp;J as well as showing acceptable forms of the ubiquitous sandwich.</p> 
+    <p class="twelve columns">The PB&amp;J sandwich is an iconic sandwich that has many variations and adaptations to the original recipe. The authors provide specific criteria that specify what constitutes a PB&amp;J as well as showing acceptable forms of the ubiquitous sandwich.</p> 
   </div>
   <div class="row">
     <div class="six columns">
