@@ -35,6 +35,9 @@
       <p class="caption"><strong>Figure {{ i + 1 }}:</strong> {{ image.caption }} <em>Source:</em> <a class="reference" :href="image.ref">{{ image.ref }}</a></p>
     </slider-item>
   </slider> 
+  <div class="row">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfT2FFScsbFX8_HFjBW3lgQ_9jjdDmB5jUD6mNPQs38TZMlZQ/viewform?embedded=true" width="960" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  </div>
 </div>
 </template>
 
@@ -65,6 +68,9 @@ export default {
     color: #000000;
     margin-left: 5em;
     margin-right:5em;
+}
+iframe {
+    margin-top: 20px;
 }
 .slider{
   background-color: #d3d3d3;
